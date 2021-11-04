@@ -8,38 +8,90 @@ const Tech = () => {
         </h1>
 
         <div className="grid grid-cols-4 gap-6 py-16 ">
-          <img
-            src="/images/bootstrap.svg"
-            className="md:w-20 md:h-20 w-10 h-10"
-          />
-          <img src="/images/css3.svg" className="md:w-20 md:h-20 w-10 h-10" />
-          <img src="/images/sass.svg" className="md:w-20 md:h-20 w-10 h-10" />
-          <img
-            src="/images/tailwind-css-icon.svg"
-            className="md:w-20 md:h-20 w-10 h-10"
-          />
-          <img src="/images/html5.svg" className="md:w-20 md:h-20 w-10 h-10" />
-          <img
-            src="/images/next-js.svg"
-            className="md:w-20 md:h-20 w-10 h-10"
-          />
-          <img src="/images/react.svg" className="md:w-20 md:h-20 w-10 h-10" />
-          <img
-            src="/images/javascript.svg"
-            className="md:w-20 md:h-20 w-10 h-10"
-          />
-          <img src="/images/redux.svg" className="md:w-20 md:h-20 w-10 h-10" />
-          <img src="/images/python.svg" className="md:w-20 md:h-20 w-10 h-10" />
-          <img src="/images/nodejs.svg" className="md:w-20 md:h-20 w-10 h-10" />
-          <img
-            src="/images/mongodb.svg"
-            className="md:w-20 md:h-20 w-10 h-10"
-          />
-          <img src="/images/github.svg" className="md:w-20 md:h-20 w-10 h-10" />
-          <img
-            src="/images/expressjs.svg"
-            className="md:w-20 md:h-20 w-10 h-10"
-          />
+          <div className="flex justify-center md:justify-start items-center">
+            <img
+              src="/images/css3.svg"
+              className="md:w-20 md:h-20 w-10 h-10 "
+            />
+          </div>
+          <div className="flex justify-center md:justify-start items-center">
+            <img
+              src="/images/html5.svg"
+              className="md:w-20 md:h-20 w-10 h-10 "
+            />
+          </div>
+          <div className="flex justify-center md:justify-start items-center">
+            <img
+              src="/images/bootstrap.svg"
+              className="md:w-20 md:h-20 w-10 h-10 "
+            />
+          </div>
+          <div className="flex justify-center md:justify-start items-center">
+            <img
+              src="/images/tailwind-css-icon.svg"
+              className="md:w-20 md:h-20 w-10 h-10 "
+            />
+          </div>
+          <div className="flex justify-center md:justify-start items-center">
+            <img
+              src="/images/sass.svg"
+              className="md:w-20 md:h-20 w-10 h-10 "
+            />
+          </div>
+          <div className="flex justify-center md:justify-start items-center">
+            <img
+              src="/images/javascript.svg"
+              className="md:w-20 md:h-20 w-10 h-10 "
+            />
+          </div>
+          <div className="flex justify-center md:justify-start items-center">
+            <img
+              src="/images/python.svg"
+              className="md:w-20 md:h-20 w-10 h-10 "
+            />
+          </div>
+          <div className="flex justify-center md:justify-start items-center">
+            <img
+              src="/images/react.svg"
+              className="md:w-20 md:h-20 w-10 h-10 "
+            />
+          </div>
+          <div className="flex justify-center md:justify-start items-center">
+            <img
+              src="/images/next-js.svg"
+              className="md:w-20 md:h-20 w-10 h-10 "
+            />
+          </div>
+          <div className="flex justify-center md:justify-start items-center">
+            <img
+              src="/images/expressjs.svg"
+              className="md:w-20 md:h-20 w-10 h-10 "
+            />
+          </div>
+          <div className="flex justify-center md:justify-start items-center">
+            <img
+              src="/images/nodejs.svg"
+              className="md:w-20 md:h-20 w-10 h-10 "
+            />
+          </div>
+          <div className="flex justify-center md:justify-start items-center">
+            <img
+              src="/images/mongodb.svg"
+              className="md:w-20 md:h-20 w-10 h-10 "
+            />
+          </div>
+          <div className="flex justify-center md:justify-start items-center">
+            <img
+              src="/images/redux.svg"
+              className="md:w-20 md:h-20 w-10 h-10 "
+            />
+          </div>
+          <div className="flex justify-center md:justify-start items-center">
+            <img
+              src="/images/github.svg"
+              className="md:w-20 md:h-20 w-10 h-10 "
+            />
+          </div>
         </div>
       </div>
     </section>
