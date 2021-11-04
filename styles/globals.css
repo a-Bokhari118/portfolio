@@ -4,3 +4,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+.spacer {
+  aspect-ratio: 690/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.layer1 {
+  background-image: url('/wave.svg');
+}
