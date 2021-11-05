@@ -3,7 +3,7 @@ import BackgroundAnimation from './BackgroundAnimation';
 const Hero = () => {
   return (
     <section className="body-font ">
-      <div className="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center relative">
+      <div className="container mx-auto flex px-5 md:py-24 py-16 md:flex-row flex-col items-center relative">
         <div className="lg:flex-grow md:full lg:pr-24  flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-start  z-10">
           <div className=" mb-4 font-medium text-white space-y-5">
             <p className="font-sndFont opacity-25"> &#60; h1 &#62; </p>
@@ -20,7 +20,7 @@ const Hero = () => {
           </p>
           <div className="flex justify-center">
             <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-              Hire Me 🔥
+              <a href="mailto:abdulrhman.bokhari23@gmail.com">Hire Me 🔥</a>
             </button>
           </div>
         </div>

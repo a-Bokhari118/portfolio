@@ -31,13 +31,13 @@ const ContactMe = () => {
   };
   return (
     <section className="text-gray-600 body-font relative">
-      <div className="container px-5 py-12 mx-auto">
-        <div className="flex flex-col text-center w-full mb-12">
+      <div className="container px-5 py-12 mx-auto ">
+        <div className="flex flex-col text-center w-full mb-12 z-10">
           <h1 className=" text-4xl md:text-6xl mt-5 font-mainFont  bg-gradient-to-tr from-[#2B83BA] to-green-100 text-transparent bg-clip-text">
             Contact Me
           </h1>
         </div>
-        <form onSubmit={sendEmail}>
+        <form onSubmit={sendEmail} style={{ zIndex: '10000' }}>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
@@ -94,7 +94,7 @@ const ContactMe = () => {
                   type="submit"
                   className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
                 >
-                  Let's Be Best Friend
+                  Let's Be Best Friends 🤝
                 </button>
               </div>
               <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
@@ -111,14 +111,14 @@ const ContactMe = () => {
             </div>
           </div>
         </form>
-        <div className=" absolute right-[150px] top-[400px] w-44 h-44 rounded-full  bg-gradient-to-tr from-[#3e96ce] to-green-100 opacity-25 "></div>
-        <div className="absolute right-[200px] top-[300px] w-44 h-44 rounded-full  bg-gradient-to-tr from-[#176290] to-green-100 opacity-25 "></div>
-        <div className="absolute right-[250px] top-[400px] w-44 h-44 rounded-full  bg-gradient-to-tr from-[#255c7e] to-green-100 opacity-25 "></div>
-
-        <div className=" absolute left-[100px] top-[100px] w-60 h-60 rounded-full  bg-gradient-to-tr from-[#3e96ce] to-green-100 opacity-25 "></div>
-        <div className="absolute left-[40px] top-[200px] w-60 h-60 rounded-full  bg-gradient-to-tr from-[#176290] to-green-100 opacity-25 "></div>
-        <div className="absolute left-[150px] top-[200px] w-60 h-60 rounded-full  bg-gradient-to-tr from-[#255c7e] to-green-100 opacity-25 "></div>
       </div>
+      <div className="hidden xl:block absolute right-[150px] top-[400px] w-44 h-44 rounded-full  bg-gradient-to-tr from-[#3e96ce] to-green-100 opacity-25  "></div>
+      <div className="hidden xl:block absolute right-[200px] top-[300px] w-44 h-44 rounded-full  bg-gradient-to-tr from-[#176290] to-green-100 opacity-25  "></div>
+      <div className="hidden xl:block absolute right-[250px] top-[400px] w-44 h-44 rounded-full  bg-gradient-to-tr from-[#255c7e] to-green-100 opacity-25  "></div>
+
+      <div className=" hidden xl:block absolute left-[100px] top-[100px] w-60 h-60 rounded-full  bg-gradient-to-tr from-[#3e96ce] to-green-100 opacity-25  "></div>
+      <div className="hidden xl:block absolute left-[40px] top-[200px] w-60 h-60 rounded-full  bg-gradient-to-tr from-[#176290] to-green-100 opacity-25  "></div>
+      <div className="hidden xl:block absolute left-[150px] top-[200px] w-60 h-60 rounded-full  bg-gradient-to-tr from-[#255c7e] to-green-100 opacity-25  "></div>
     </section>
   );
 };

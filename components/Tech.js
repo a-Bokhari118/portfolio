@@ -9,9 +9,14 @@ const Tech = () => {
           Technogogies
         </h1>
 
+        <div className="absolute right-[40px] lg:top-[400px] lg:right-[150px] md:top-[450px] md:right-[70px]  top-[360px] w-20 h-20 md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-full  bg-gradient-to-tr from-[#3e96ce] to-green-100 opacity-25 "></div>
+        <div className="absolute right-[60px] lg:top-[300px] lg:right-[200px] md:top-[400px] md:right-[110px] top-[320px] w-20 h-20 md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-full  bg-gradient-to-tr from-[#176290] to-green-100 opacity-25 "></div>
+        <div className="absolute right-[80px] lg:top-[400px] lg:right-[250px] md:top-[450px] md:right-[130px] top-[360px] w-20 h-20 md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-full  bg-gradient-to-tr from-[#255c7e] to-green-100 opacity-25 "></div>
+
+        {/* 
         <div className=" absolute right-[150px] top-[400px] w-36 h-36 rounded-full  bg-gradient-to-tr from-[#3e96ce] to-green-100 opacity-25 "></div>
         <div className="absolute right-[200px] top-[300px] w-36 h-36 rounded-full  bg-gradient-to-tr from-[#176290] to-green-100 opacity-25 "></div>
-        <div className="absolute right-[250px] top-[400px] w-36 h-36 rounded-full  bg-gradient-to-tr from-[#255c7e] to-green-100 opacity-25 "></div>
+        <div className="absolute right-[250px] top-[400px] w-36 h-36 rounded-full  bg-gradient-to-tr from-[#255c7e] to-green-100 opacity-25 "></div> */}
 
         <div className="grid grid-cols-4 gap-6 py-16">
           <div className="flex justify-center md:justify-start items-center z-20">
