@@ -7,7 +7,7 @@ const About = () => {
           About Me
         </h1>
 
-        <p class="mb-8 text-gray-400 w-full md:w-[60%] text-xl md:text-2xl leading-relaxed">
+        <p className="mb-8 text-gray-400 w-full md:w-[60%] text-xl md:text-2xl leading-relaxed">
           My name is Abdulrhman Bokhari and I am a <span> Web Developer </span>{' '}
           from Saudi Arabia{' '}
           <img src="/SA.png" className="w-5 h-3 inline-block" /> Makkah, who
