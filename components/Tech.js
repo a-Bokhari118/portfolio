@@ -2,7 +2,7 @@ import BackgroundAnimation from './BackgroundAnimation';
 
 const Tech = () => {
   return (
-    <section className="relative">
+    <section className="relative" id="technology">
       <div className="container mx-auto px-5 relative">
         <div className="w-24 h-1 rounded bg-[#2B83BA]  mb-10"></div>
         <h1 className="text-4xl md:text-6xl font-mainFont  bg-gradient-to-tr from-[#2B83BA] to-green-100 text-transparent bg-clip-text">

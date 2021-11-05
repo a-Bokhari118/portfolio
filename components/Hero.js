@@ -2,7 +2,7 @@ import BackgroundAnimation from './BackgroundAnimation';
 
 const Hero = () => {
   return (
-    <section className="body-font ">
+    <section className="body-font -mt-8">
       <div className="container mx-auto flex px-5 md:py-24 py-16 md:flex-row flex-col items-center relative">
         <div className="lg:flex-grow md:full lg:pr-24  flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-start  z-10">
           <div className=" mb-4 font-medium text-white space-y-5">

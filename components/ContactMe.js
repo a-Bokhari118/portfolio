@@ -30,7 +30,7 @@ const ContactMe = () => {
     e.target.reset();
   };
   return (
-    <section className="text-gray-600 body-font relative">
+    <section className="text-gray-600 body-font relative" id="contact">
       <div className="container px-5 py-12 mx-auto ">
         <div className="flex flex-col text-center w-full mb-12 z-10">
           <h1 className=" text-4xl md:text-6xl mt-5 font-mainFont  bg-gradient-to-tr from-[#2B83BA] to-green-100 text-transparent bg-clip-text">

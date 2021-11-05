@@ -35,7 +35,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="container mx-auto px-5 py-10">
+    <div className="container mx-auto px-5 py-10" id="projects">
       <div className="w-24 h-1 rounded bg-[#2B83BA] mt-[-50px] mb-10"></div>
       <h1 className=" text-4xl md:text-6xl mb-20 font-mainFont  bg-gradient-to-tr from-[#2B83BA] to-green-100 text-transparent bg-clip-text">
         Projects

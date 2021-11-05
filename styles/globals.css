@@ -16,3 +16,8 @@
 .layer1 {
   background-image: url('/wave.svg');
 }
+
+html,
+body {
+  scroll-behavior: smooth;
+}
