@@ -33,7 +33,7 @@ const ContactMe = () => {
     <section className="text-gray-600 body-font relative">
       <div className="container px-5 py-12 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">
+          <h1 className=" text-4xl md:text-6xl mt-5 font-mainFont  bg-gradient-to-tr from-[#2B83BA] to-green-100 text-transparent bg-clip-text">
             Contact Me
           </h1>
         </div>
@@ -45,7 +45,7 @@ const ContactMe = () => {
                   <label
                     htmlFor="name"
                     name="name"
-                    className="leading-7 text-sm text-gray-600"
+                    className="leading-7 text-sm text-white"
                   >
                     Name
                   </label>
@@ -62,7 +62,7 @@ const ContactMe = () => {
                   <label
                     htmlFor="email"
                     name="email"
-                    className="leading-7 text-sm text-gray-600"
+                    className="leading-7 text-sm text-white"
                   >
                     Email
                   </label>
@@ -78,7 +78,7 @@ const ContactMe = () => {
                 <div className="relative">
                   <label
                     htmlFor="message"
-                    className="leading-7 text-sm text-gray-600"
+                    className="leading-7 text-sm text-white"
                   >
                     Message
                   </label>
@@ -98,9 +98,10 @@ const ContactMe = () => {
                 </button>
               </div>
               <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                <a className="text-indigo-500">
+                <a className="text-indigo-500 block mb-2">
                   abdulrhman.bokhari23@gmail.com
                 </a>
+                <a className="text-indigo-500">+966 565405917</a>
                 <p className="leading-normal my-5">
                   Al-Fwakeh St.
                   <br />
