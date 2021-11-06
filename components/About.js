@@ -1,6 +1,16 @@
+import { fade, titleAnim } from '../animations';
+import { useScroll } from './useScroll';
+import { motion } from 'framer-motion';
 const About = () => {
+  const [element, controls] = useScroll();
   return (
-    <section id="about">
+    <motion.section
+      variants={titleAnim}
+      animate={controls}
+      initial="hidden"
+      ref={element}
+      id="about"
+    >
       <div className="container mx-auto px-5">
         <div className="w-24 h-1 rounded bg-[#2B83BA] mt-[-50px] mb-10"></div>
         <h1 className=" text-4xl md:text-6xl mb-5 font-mainFont  bg-gradient-to-tr from-[#2B83BA] to-green-100 text-transparent bg-clip-text">
@@ -17,7 +27,7 @@ const About = () => {
           person who has high passion in coding and Gaming too 😀
         </p>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

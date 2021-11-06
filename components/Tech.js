@@ -1,12 +1,21 @@
-import BackgroundAnimation from './BackgroundAnimation';
-
+import { fade, titleAnim } from '../animations';
+import { useScroll } from './useScroll';
+import { motion } from 'framer-motion';
 const Tech = () => {
+  const [element, controls] = useScroll();
   return (
-    <section className="relative" id="technology">
+    <motion.section
+      variants={fade}
+      animate={controls}
+      initial="hidden"
+      ref={element}
+      className="relative"
+      id="technology"
+    >
       <div className="container mx-auto px-5 relative">
         <div className="w-24 h-1 rounded bg-[#2B83BA]  mb-10"></div>
         <h1 className="text-4xl md:text-6xl font-mainFont  bg-gradient-to-tr from-[#2B83BA] to-green-100 text-transparent bg-clip-text">
-          Technogogies
+          Technologies
         </h1>
 
         <div className="absolute right-[40px] lg:top-[400px] lg:right-[150px] md:top-[450px] md:right-[70px]  top-[360px] w-20 h-20 md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-full  bg-gradient-to-tr from-[#3e96ce] to-green-100 opacity-25 "></div>
@@ -105,7 +114,7 @@ const Tech = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

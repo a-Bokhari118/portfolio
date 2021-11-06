@@ -1,6 +1,12 @@
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
+import { fade } from '../animations';
+import { useScroll } from './useScroll';
+import { motion } from 'framer-motion';
+
 const ContactMe = () => {
+  const [element, controls] = useScroll();
+
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
@@ -30,7 +36,14 @@ const ContactMe = () => {
     e.target.reset();
   };
   return (
-    <section className="text-gray-600 body-font relative" id="contact">
+    <motion.section
+      variants={fade}
+      animate={controls}
+      initial="hidden"
+      ref={element}
+      className="text-gray-600 body-font relative"
+      id="contact"
+    >
       <div className="container px-5 py-12 mx-auto ">
         <div className="flex flex-col text-center w-full mb-12 z-10">
           <h1 className=" text-4xl md:text-6xl mt-5 font-mainFont  bg-gradient-to-tr from-[#2B83BA] to-green-100 text-transparent bg-clip-text">
@@ -119,7 +132,7 @@ const ContactMe = () => {
       <div className=" hidden xl:block absolute left-[100px] top-[100px] w-60 h-60 rounded-full  bg-gradient-to-tr from-[#3e96ce] to-green-100 opacity-25  "></div>
       <div className="hidden xl:block absolute left-[40px] top-[200px] w-60 h-60 rounded-full  bg-gradient-to-tr from-[#176290] to-green-100 opacity-25  "></div>
       <div className="hidden xl:block absolute left-[150px] top-[200px] w-60 h-60 rounded-full  bg-gradient-to-tr from-[#255c7e] to-green-100 opacity-25  "></div>
-    </section>
+    </motion.section>
   );
 };
 
