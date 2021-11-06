@@ -18,7 +18,7 @@ const Hero = () => {
             <p className="font-sndFont opacity-25"> &#60; h1 &#62; </p>
             <h3 className="text-2xl pl-3 md:text-3xl">Hello 👋</h3>
             <h1 className="text-4xl md:text-5xl pl-3 ">
-              I'm Abdulrhman Bokhari
+              I&apos;m Abdulrhman Bokhari
             </h1>
             <h2 className="text-3xl pl-3 md:text-4xl text-[#3e96ce]">
               Front End Developer
