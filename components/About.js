@@ -20,8 +20,13 @@ const About = () => {
         <p className="mb-8 text-gray-400 w-full lg:w-[60%] text-lg md:text-2xl leading-relaxed">
           My name is Abdulrhman Bokhari and I am a{' '}
           <span className="text-[#3e96ce]"> Web Developer </span> from Saudi
-          Arabia <img src="/SA.png" className="w-5 h-3 inline-block" /> Makkah,
-          who specializes in creating dynamic and beautiful web apps. I
+          Arabia{' '}
+          <img
+            src="/SA.png"
+            alt="Saudi Arabia flag"
+            className="w-5 h-3 inline-block"
+          />{' '}
+          Makkah, who specializes in creating dynamic and beautiful web apps. I
           graduated in 2020 with a bachelor’s degree in{' '}
           <span>Computer Science</span> from Yanbu University College. I am a
           person who has high passion in coding and Gaming too 😀
