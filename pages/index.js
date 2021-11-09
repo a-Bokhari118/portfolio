@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="bg-gray-900 h-full w-full ">
       <Head>
-        <title>Abdulrhman Bokhari</title>
+        <title>Abdulrhman Bokhari Portfolio</title>
         <meta
           name="description"
           content="Abdulrhman bokhari. front end developer"
@@ -18,7 +18,18 @@ export default function Home() {
           name="keywords"
           content="web developer, reactjs,nextks,nodejs,expressjs,tailwindcss,abdulrhman,bokhari,front end,back end"
         />
-        <link rel="icon" href="/Bk.svg" />
+        <meta name="author" content="Abdulrhman Samir Bokhari" />
+
+        {/* OG */}
+        <meta
+          property="og:title"
+          content="Abdulrhman Bokhari - Front-end Developer Portfolio"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/BK.png" />
+        <meta property="og:url" content="https://www.bk23.dev" />
+
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
       <Hero />

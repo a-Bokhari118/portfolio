@@ -24,7 +24,7 @@ const About = () => {
           <img
             src="/SA.png"
             alt="Saudi Arabia flag"
-            className="w-5 h-3 inline-block"
+            className="w-5 h-3 inline-block "
           />{' '}
           Makkah, who specializes in creating dynamic and beautiful web apps. I
           graduated in 2020 with a bachelor’s degree in{' '}
