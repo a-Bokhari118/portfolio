@@ -15,7 +15,7 @@ const Hero = () => {
           className="lg:flex-grow md:full lg:pr-24  flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-start  z-10"
         >
           <motion.div className=" mb-4 font-medium text-white space-y-5">
-            <p className="font-sndFont opacity-25"> &#60; h1 &#62; </p>
+            <p className="font-sndFont opacity-25 mb-2 "> &#60; h1 &#62; </p>
             <h3 className="text-2xl pl-3 md:text-3xl">Hello 👋</h3>
             <h1 className="text-4xl md:text-5xl pl-3 ">
               I&apos;m Abdulrhman Bokhari
@@ -23,18 +23,30 @@ const Hero = () => {
             <h2 className="text-3xl pl-3 md:text-4xl text-[#3e96ce]">
               Front End Developer
             </h2>
-            <p className="font-sndFont opacity-25">&#60; &#47; h1 &#62; </p>
+            <p className="font-sndFont opacity-25 mt-2">
+              &#60; &#47; h1 &#62;{' '}
+            </p>
           </motion.div>
           <motion.p className="mb-8 leading-relaxed text-gray-400 text-lg lg:w-[50%]">
             a web developer focused on building a great web experiences. Coding
             have been my passion since the days I started working with computers
           </motion.p>
           <motion.div className="flex justify-center">
-            <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-sm md:text-lg">
-              <a href="mailto:abdulrhman.bokhari23@gmail.com">Hire Me 🔥</a>
+            <button className="inline-flex text-white bg-gradient-to-r from-[#3f87b4] to-blue-400 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-sm md:text-lg">
+              <a
+                href="mailto:abdulrhman.bokhari23@gmail.com"
+                className="text-gray-900 font-bold"
+              >
+                Hire Me 🔥
+              </a>
             </button>
-            <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-sm md:text-lg ml-3">
-              <a href="/cv.pdf" target="_blank" rel="noreferre">
+            <button className="inline-flex text-white bg-gradient-to-r from-[#3679a3] to-blue-400 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-sm md:text-lg ml-3">
+              <a
+                href="/cv.pdf"
+                target="_blank"
+                rel="noreferre"
+                className="text-gray-900 font-bold"
+              >
                 My Resume 📁
               </a>
             </button>
