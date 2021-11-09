@@ -13,6 +13,7 @@ const Projects = () => {
       used: ['React', 'Framer Motion'],
       preview: 'https://creative-solution-bdc10.web.app/',
       source: 'https://github.com/a-Bokhari118/creative-solutions',
+      alt: 'Creative Soultions logo',
     },
     {
       title: 'Music Player',
@@ -29,6 +30,7 @@ const Projects = () => {
       used: ['React', 'Redux', 'Nodejs', 'Expressjs', 'MongoDB'],
       preview: 'https://sladeshop.herokuapp.com/',
       source: 'https://github.com/a-Bokhari118/sladeshop',
+      alt: 'E-commerce web app logo ',
     },
     {
       title: 'Static Blog App',
@@ -37,6 +39,7 @@ const Projects = () => {
       used: ['React', 'Nextjs', 'TailwindCSS'],
       preview: 'https://dev-blog-xi.vercel.app/',
       source: 'https://github.com/a-Bokhari118/dev-blog',
+      alt: 'Static Blog App logo',
     },
   ];
   return (
@@ -58,8 +61,8 @@ const Projects = () => {
           key={index}
           className="flex flex-col lg:flex-row justify-between mt-16"
         >
-          <div className="lg:w-[40%]">
-            <img src={item.pic} className="w-full" />
+          <div className="lg:w-[40%] ">
+            <img src={item.pic} className="w-full" alt={item.alt} />
           </div>
           <div className="flex flex-col mt-5 px-3 lg:mt-0 lg:px-0 items-start lg:w-[40%]">
             <h1 className="font-mainFont text-3xl md:text-4xl  bg-gradient-to-tr from-[#2B83BA] to-green-100 text-transparent bg-clip-text">
