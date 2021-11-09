@@ -111,10 +111,12 @@ const ContactMe = () => {
                 </button>
               </div>
               <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                <a className="text-indigo-500 block mb-2">
+                <p className="bg-gradient-to-tr from-[#2B83BA] to-green-100 text-transparent bg-clip-text font-bold block mb-2">
                   abdulrhman.bokhari23@gmail.com
-                </a>
-                <a className="text-indigo-500">+966 565405917</a>
+                </p>
+                <p className="bg-gradient-to-tr from-[#2B83BA] to-green-100 text-transparent font-bold bg-clip-text">
+                  +966 565405917
+                </p>
                 <p className="leading-normal my-5">
                   Al-Fwakeh St.
                   <br />
