@@ -22,6 +22,7 @@ const Projects = () => {
       used: ['React'],
       preview: 'https://music-player-21d3e.web.app/',
       source: 'https://github.com/a-Bokhari118/music-player',
+      alt: 'Music Player app logo ',
     },
     {
       title: 'E-commerce web app',

@@ -40,9 +40,9 @@ const Header = () => {
                 className="mx-5 cursor-pointer uppercase hover:text-[#2B83BA] hover:scale-125 transform transition-all duration-200"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Gitub Account"
               >
                 <FaGithub />
-                <span className="hidden">dd</span>
               </a>
             </Link>
             <Link href="https://twitter.com/A_bokhari_">
@@ -50,9 +50,9 @@ const Header = () => {
                 className="mx-5 cursor-pointer uppercase hover:text-[#2B83BA] hover:scale-125 transform transition-all duration-200"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Twitter Account"
               >
                 <FaTwitter />
-                <span className="hidden">dd</span>
               </a>
             </Link>
             <Link href="https://www.linkedin.com/in/abdullrhman-bokhari23/">
@@ -60,9 +60,9 @@ const Header = () => {
                 className="mx-5 cursor-pointer uppercase hover:text-[#2B83BA] hover:scale-125 transform transition-all duration-200"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Linkedin Account"
               >
                 <FaLinkedin />
-                <span className="hidden">dd</span>
               </a>
             </Link>
           </div>
