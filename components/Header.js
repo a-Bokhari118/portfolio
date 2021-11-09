@@ -42,6 +42,7 @@ const Header = () => {
                 rel="noreferrer"
               >
                 <FaGithub />
+                <span className="hidden">dd</span>
               </a>
             </Link>
             <Link href="https://twitter.com/A_bokhari_">
@@ -51,6 +52,7 @@ const Header = () => {
                 rel="noreferrer"
               >
                 <FaTwitter />
+                <span className="hidden">dd</span>
               </a>
             </Link>
             <Link href="https://www.linkedin.com/in/abdullrhman-bokhari23/">
@@ -60,6 +62,7 @@ const Header = () => {
                 rel="noreferrer"
               >
                 <FaLinkedin />
+                <span className="hidden">dd</span>
               </a>
             </Link>
           </div>
