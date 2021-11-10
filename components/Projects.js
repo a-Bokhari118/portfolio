@@ -7,6 +7,22 @@ const Projects = () => {
   const [element, controls] = useScroll();
   const items = [
     {
+      title: 'Disney+ UI Clone',
+      des: 'It just the UI of disney+ website',
+      pic: '/s11.png',
+      used: [
+        'React',
+        'Nextjs',
+        'TailwindCSS',
+        'Nextauth',
+        'Firebase',
+        'TMDB API',
+      ],
+      preview: 'https://movie-app-riwor3luf-a-bokhari118.vercel.app/',
+      source: 'https://github.com/a-Bokhari118/movie-app',
+      alt: 'Disney+ app logo',
+    },
+    {
       title: 'Creative Soultions',
       des: 'Landing page for a tech compnay',
       pic: '/s6.png',
