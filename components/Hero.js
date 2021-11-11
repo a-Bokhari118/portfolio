@@ -5,7 +5,7 @@ import { useScroll } from './useScroll';
 const Hero = () => {
   const [element, controls] = useScroll();
   return (
-    <section className="body-font -mt-8">
+    <section className="body-font -mt-6">
       <div className="container mx-auto flex px-5 md:py-24 py-16 md:flex-row flex-col items-center relative">
         <motion.div
           variants={titleAnim}

@@ -28,7 +28,7 @@ const Tech = () => {
       initial="hidden"
       ref={element}
       className="relative"
-      id="technology"
+      id="tech"
     >
       <div className="container mx-auto px-5 relative">
         <div className="w-24 h-1 rounded bg-[#2B83BA]  mb-10"></div>
