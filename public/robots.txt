@@ -1,2 +1,4 @@
 User-agent: *
-Allow: /
+Allow: /*
+
+Sitemap: https://bk23.dev/sitemap.xml
