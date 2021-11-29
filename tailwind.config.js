@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       fontFamily: {
         mainFont: ['Zen Antique', 'serif'],
-        sndFont: ['Fruktur', 'cursive'],
+        sndFont: ['Merriweather', 'serif'],
       },
       colors: {
         main: {

@@ -65,10 +65,10 @@ const Projects = () => {
       animate={controls}
       initial="hidden"
       ref={element}
-      className="container mx-auto px-5 py-10"
+      className="container mx-auto px-5 py-10 lg:mt-20"
       id="projects"
     >
-      <div className="w-24 h-1 rounded bg-[#2B83BA] mt-[-50px] mb-10"></div>
+      <div className="w-24 h-1 rounded bg-[#2B83BA] mt-[-50px] mb-3"></div>
       <h1 className=" text-4xl md:text-6xl mb-20 font-mainFont  bg-gradient-to-tr from-[#2B83BA] to-green-100 text-transparent bg-clip-text">
         Projects
       </h1>
@@ -95,7 +95,7 @@ const Projects = () => {
               {item.used.map((tech, index) => (
                 <p
                   key={index}
-                  className="mr-2 bg-gradient-to-tr from-[#2B83BA] to-green-100 px-4 py-2 rounded shadow-md mt-2 "
+                  className="mr-2  mt-2 text-gray-300 px-4 py-2 rounded shadow-lg bg-gray-800 "
                 >
                   {tech}
                 </p>
@@ -105,7 +105,7 @@ const Projects = () => {
             <div className="flex mt-4 text-sm md:text-base">
               <Link href={item.source}>
                 <a
-                  className="mr-2 text-gray-300 px-4 py-2 rounded shadow-lg bg-gray-800 "
+                  className="mr-2 bg-gradient-to-tr from-[#2B83BA] to-green-100 px-4 py-2 rounded shadow-md "
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -114,7 +114,7 @@ const Projects = () => {
               </Link>
               <Link href={item.preview}>
                 <a
-                  className="mr-2 text-gray-300 px-4 py-2 rounded shadow-lg bg-gray-800 "
+                  className="mr-2 bg-gradient-to-tr from-[#2B83BA] to-green-100 px-4 py-2 rounded shadow-md "
                   target="_blank"
                   rel="noreferrer"
                 >

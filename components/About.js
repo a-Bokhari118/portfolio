@@ -11,13 +11,13 @@ const About = () => {
       ref={element}
       id="about"
     >
-      <div className="container mx-auto px-5">
-        <div className="w-24 h-1 rounded bg-[#2B83BA] mt-[-50px] mb-10"></div>
+      <div className="container mx-auto px-5 lg:mt-60">
+        <div className="w-24 h-1 rounded bg-[#2B83BA] mt-[-50px] mb-3"></div>
         <h1 className=" text-4xl md:text-6xl mb-5 font-mainFont  bg-gradient-to-tr from-[#2B83BA] to-green-100 text-transparent bg-clip-text">
           About Me
         </h1>
 
-        <p className="mb-8 text-gray-400 w-full lg:w-[60%] text-lg md:text-2xl leading-relaxed">
+        <p className="mb-8 text-gray-400 w-full lg:w-[60%] text-lg md:text-3xl leading-relaxed">
           My name is Abdulrhman Bokhari and I am a{' '}
           <span className="text-[#3e96ce]"> Web Developer </span> from Saudi
           Arabia{' '}
